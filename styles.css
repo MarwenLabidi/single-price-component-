@@ -1,0 +1,78 @@
+body{
+    background:hsl(204, 43%, 93%);
+}
+main{
+    width: 330px;
+    height: 700px;
+    background-color: white;
+    margin: 80px auto;
+    border-radius: 5px;
+    display: grid;
+}
+
+main section:nth-child(1){
+    padding: 20px;
+}
+main section div:nth-child(1){
+    background-color: hsl(179, 62%, 43%) ;
+    padding: 20px;
+}
+main section div:nth-child(2){
+    background-color: hsl(179, 62%, 63%) ;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+main section:first-child h2{
+    color: hsl(179, 62%, 43%);
+}
+main section:first-child h3{
+    color: hsl(71, 73%, 54%);
+}
+main section:first-child p{
+    color: hsl(218, 22%, 67%);
+}
+main section:nth-child(2),button{
+    color: white;
+}
+button{
+    background-color:hsl(71, 73%, 54%) ;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    transform: translateX(35px);
+}
+main section:nth-child(2) div:first-child h1{
+    display: inline-block;
+}
+main section:nth-child(2) div:first-child span{
+    color: hsl(204, 43%, 93%);
+}
+main section:nth-child(2) div:nth-child(2) ul{
+    color: hsl(204, 43%, 93%);
+    list-style: none;
+    line-height: 25px;
+}
+@media (min-width:600px) {
+    main{
+        width: 800px;
+        height: 550px;
+    }
+    main section:nth-child(2){
+        display: flex;
+    }
+    main section div:nth-child(1){
+    flex-grow: 1;
+}
+main section div:nth-child(2){
+    flex-grow: 1;
+}
+main section:first-child p span::after{
+    content: "";
+    display: block;
+}
+button{
+    width: 230px;
+    height: 53px;
+    transform: translateX(65px);
+}
+}
