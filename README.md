@@ -1,2 +1,2 @@
-## Welcome to the single-price-grid-component
-# [Project link]()
+## Welcome to the single-price-component
+# [Project link](https://marwenez.github.io/single-price-component-/)
